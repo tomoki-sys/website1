@@ -1,0 +1,185 @@
+html{
+  font-size: 0.625rem;
+}
+
+body{
+  color: #3C3C3C;
+  background-color: #FCFCFA;
+  line-height: 1.7;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-weight: 400;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #3C3C3C;
+}
+
+.wrapper{
+  margin: auto 10vw;
+}
+
+h1{
+  font-size: 4.8rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-align: left;
+}
+
+h2{
+  font-size: 2.4rem;
+  font-weight: 700;
+
+}
+
+section:not(:first-child){
+  margin-top: 120px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  padding: 6rem;
+
+}
+
+.title::before{
+  content: "";
+  height: 1px;
+  flex-grow: 0.3;
+  background-color: black;
+  margin-right: 3rem;
+}
+
+.square-btn{
+  margin-top: 3rem;
+
+}
+
+.square-btn a:hover{
+  background-color: #3C3C3C;
+  color: #FCFCFA;
+}
+
+.square-btn a{
+  width: 300px;
+  height: 56px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #FCFCFA;
+  padding: 2rem 12rem;
+
+  text-transform: uppercase;
+
+  box-shadow: 0px 0px 46px 8px #e6e6e6;
+
+
+
+}
+
+/*header*/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  font-size: 3.2rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+}
+
+.nav ul li{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.fv{
+  background-image: url();
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+.keymsgs{
+  position: absolute;
+  left: 50vm;
+  bottom: 5vm;
+}
+
+.keymsg{
+  font-size: 3.2rem;
+  padding: 0.3em 0.6em;
+  font-weight: 500;
+  background-color: #FCFCFA;
+}
+
+/*about us*/
+
+.aboutus-img{
+  width: 437px;
+  margin-right: 3rem;
+
+}
+
+.aboutus-img img{
+  width: 100%;
+}
+
+.aboutus .contents{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+.aboutus .contents .msg{
+  max-width: 42rem;
+
+}
+
+/*プロダクツ*/
+.products .contents{
+  display: flex;
+}
+
+.product-bg{
+  width: 100%;
+}
+
+.product-bg img{
+  width: 100%;
+}
+
+.stuffedtoys,.woodentoys{
+  position: relative;
+}
+
+.products-info{
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
