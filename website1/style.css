@@ -183,3 +183,70 @@ header{
   left: 10%;
   bottom: 10%;
 }
+
+/*ranking*/
+
+.ranking-item{
+  width: 250px;
+  position: relative;
+
+}
+
+.ranking-item img{
+  width: 100%;
+}
+
+.ranking-info div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.age{
+  font-size: 1rem;
+  color:#FCFCFA;
+  background-color: #3C3C3C;
+  text-align: center;
+  width: 75px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 100vh;
+
+}
+
+.rankNo{
+  position: absolute;
+  width: 55px;
+  left: -5px;
+}
+
+.rankNo img{
+  width: 100%;
+}
+
+.online-bg img{
+  width: 100%;
+}
+
+.onlineshop .contents{
+  position: relative;
+}
+
+.online-info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #FCFCFA;
+
+}
+
+.location .contents{
+  
+}
+
